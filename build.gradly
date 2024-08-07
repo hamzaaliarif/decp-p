@@ -1,0 +1,6 @@
+dependencies {
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
+    // For Kotlin use kapt instead of annotationProcessor
+    kapt "androidx.room:room-compiler:2.3.0"
+}
